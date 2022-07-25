@@ -1,6 +1,6 @@
 -- Добавление таблицы в слой staging для данных без преобразований
 CREATE TABLE staging.user_order_log_raw (
-	id varchar(10000),
+	id varchar(100),
 	date_time varchar(100),
 	city_id varchar(100),
 	city_name varchar(100),
